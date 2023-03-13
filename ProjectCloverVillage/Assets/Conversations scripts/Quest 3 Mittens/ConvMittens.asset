@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 816f4289418916b42a44c5f5e92405cd, type: 3}
+  m_Name: ConvMittens
+  m_EditorClassIdentifier: 
+  conversation:
+  - Welcome back Kitty. I just read the letter
+  - Oh my! It says there is a treasure buried somewhere in the village and there
+    is a riddle in the letter as well. I think that if you can solve the riddle,
+    you will be able to find the treasure.
+  - "The riddle goes \u201CI am always open or closed, but never in between. I let
+    you in, I keep you out.\u201D Good luck!"
+  answer:
+  - Hey. What did the letter say?
+  - Oeh treasure hunting! Do tell!
+  - I got this!!
