@@ -2,17 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OpenMenu : MonoBehaviour
+public class OpenSettings : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject menu;
+    public bool ismenuopen;
+
     void Start()
     {
-        
+        menu.SetActive(false);
+        ismenuopen = false;
+        //hierdoor staat het menu vanaf het begin uit.
+
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+            //Als ESC word ingedrukt.
+        {
+            menu.SetActive(!menu.activeSelf);
+            //Menu gaat open als je ESC indrukt.
+        }
     }
+
 }
