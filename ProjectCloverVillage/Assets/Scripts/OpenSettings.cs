@@ -5,12 +5,10 @@ using UnityEngine;
 public class OpenSettings : MonoBehaviour
 {
     public GameObject menu;
-    public bool ismenuopen;
-
+    
     void Start()
     {
         menu.SetActive(false);
-        ismenuopen = false;
         //hierdoor staat het menu vanaf het begin uit.
 
     }
@@ -18,11 +16,15 @@ public class OpenSettings : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
-            //Als ESC word ingedrukt.
+            //hier geef je aan dat je de knop ESC wil gebruiken.
         {
+ 
             menu.SetActive(!menu.activeSelf);
-            //Menu gaat open als je ESC indrukt.
+            //als je ESC indrukt gaat het menu in beeld.
+ 
         }
     }
+
+    
 
 }
