@@ -4,26 +4,19 @@ using UnityEngine;
 
 public class PlayerPrefsTest : MonoBehaviour
 {
+    public int i;
     // Start is called before the first frame update
     void Start()
     {
-        PlayerPrefs.SetInt("testInt", 10);
-        PlayerPrefs.SetString("testString", "Lalalalalala");
-        PlayerPrefs.SetInt("audioVolume", 5);
-
-        if (PlayerPrefs.HasKey("audioVolume"))
-        {
-            // ja dit is het geval.
-        }
-        else
-        {
-
-        }
+        i = PlayerPrefs.GetInt("Jump");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetButtonDown("Jump"))
+        {
+            PlayerPrefs.SetInt("Jump", 10);
+        }
     }
 }

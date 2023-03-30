@@ -6,20 +6,20 @@ using UnityEngine.UI;
 public class ResetPlayerPositionNewGame : MonoBehaviour
 {
     public GameObject player;
-    public Vector3 startingposition;
+    public Vector3 startingPosition;
    
    
 
     void Start()
     {
-        startingposition = player.transform.position;
+        startingPosition = player.transform.position;
         //sla de startpositie van de player op.
         
     }
 
    public void ResetPlayerPosition()
     {
-        player.transform.position = startingposition;
+        player.transform.position = startingPosition;
         //als er op de knop word geklikt word dit uitgevoerd waardoor de game reset naar startpositie.
     }
 }
