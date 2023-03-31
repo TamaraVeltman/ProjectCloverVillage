@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18082625, g: 0.22636041, b: 0.3072027, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -13008,14 +13008,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1546843631}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.41868734, y: -0.34213668, z: 0.057507206, w: 0.8392474}
+  m_LocalPosition: {x: -163, y: 277, z: 282}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 47.912, y: -51.715, z: -16.465}
 --- !u!1 &1559304869
 GameObject:
   m_ObjectHideFlags: 0
@@ -17839,7 +17839,7 @@ PrefabInstance:
     - target: {fileID: 5257716784204351371, guid: 6f534df70e8c2aa4d87c986a75538cbc,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.43418723
+      value: 0.29259953
       objectReference: {fileID: 0}
     - target: {fileID: 5257716784204351371, guid: 6f534df70e8c2aa4d87c986a75538cbc,
         type: 3}
@@ -17849,7 +17849,7 @@ PrefabInstance:
     - target: {fileID: 5257716784204351371, guid: 6f534df70e8c2aa4d87c986a75538cbc,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9008227
+      value: 0.95623505
       objectReference: {fileID: 0}
     - target: {fileID: 5257716784204351371, guid: 6f534df70e8c2aa4d87c986a75538cbc,
         type: 3}
@@ -17864,7 +17864,7 @@ PrefabInstance:
     - target: {fileID: 5257716784204351371, guid: 6f534df70e8c2aa4d87c986a75538cbc,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 128.533
+      value: 145.973
       objectReference: {fileID: 0}
     - target: {fileID: 5257716784204351371, guid: 6f534df70e8c2aa4d87c986a75538cbc,
         type: 3}
