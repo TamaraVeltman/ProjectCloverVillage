@@ -10,6 +10,8 @@ public class Audio : MonoBehaviour
     public void SetMusicVolume(float newVolume)
     {
         masterMixer.SetFloat("musicVolume", newVolume);
+        //Setfloat word gebruikt om de categorie in te stellen, met newvolume geef je de waarde aan.
+        //Dit kan aangeroepen worden vanuit AudioMixer.
     }
 
     public void SetEnvironmentVolume(float newVolume)

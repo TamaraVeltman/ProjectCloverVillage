@@ -9,7 +9,7 @@ public class MainMenu : MonoBehaviour
     public void PlayGame ()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            //Hiermee laat je de eerst volgende scene.
+            //laad nieuwe scene in, huidig scene + 1 bij opgetelt om naar de volgende scene te gaan en dat word dan de huidige scene.
 
     }
 
