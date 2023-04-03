@@ -6,8 +6,6 @@ using UnityEngine.UI;
 public class Video : MonoBehaviour
 {
     public Slider qualitySlider;
-    public float brightness = 1.0f;
-    private Material material;
 
     public void ToggleFullscreen()
     {
@@ -20,15 +18,6 @@ public class Video : MonoBehaviour
         QualitySettings.SetQualityLevel((int)qualitySlider.value);
         Debug.Log((int)qualitySlider.value);
         //Veranderd de quality van de game met een slider 0 = Performant, 1 = Balanced, 2 = High fidelity.
-    }
-
-    public void Start()
-    { 
-
-    }
-
-    public void Update()
-    {
-        
+        //Debug is om te laten zien dat hij werkt
     }
 }
