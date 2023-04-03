@@ -9,13 +9,13 @@ public class CameraRotationTest : MonoBehaviour
     public Vector3 playerRot;
     public Vector3 cameraRot;
     public Camera cam;
-    // Start is called before the first frame update
+    
     void Start()
     {
 
     }
 
-    //Main Camera moet op de Player geplaatst zijn
+    
     void Update()
     {
         //GetAxis is tussen -1 en 1 en wilt altijd naar 0, Mouse X en Mouse Y zijn dingen in Unity

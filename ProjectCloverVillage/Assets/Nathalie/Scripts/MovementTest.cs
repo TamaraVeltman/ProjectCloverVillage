@@ -22,11 +22,9 @@ public class MovementTest : MonoBehaviour
         //Vector3 pakt de x en z, dat maak je gelijk aan de hor en vert.
         moveDirection.x = horizontal;
         moveDirection.z = vertical;
-        //Je gebruikt transform om bij de translate te komen. Translate weet wat de voorkant van het object is.
-        //moveDirection geeft richtingen aan waarop het object moet bewegen.
-        //moveSpeed is de snelheid van het object.
-        //Time.deltaTime is
-        //moveDirection moet je vermenigvuldigen met moveSpeed en Time.deltaTime. Door dit te doen weet het object welke richting het op moet bewegen met welke snelheid.
+        //transform.Translate word gebruikt om een object te verplaatsen, de richtingen hiervan word door moveDirection aangegeven.
+        //Met moveSpeed geef je aan hoe snel het object kan bewegen. De waardes hiervan kan je veranderen.
+        //Time.deltaTime geeft de tijd aan die is verlopen na de vorige frame, hierdoor kan het object goed en soepel bewegen, ongeacht van wat de framesnelheid van het spel zelf is.
         transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
     }
 }
