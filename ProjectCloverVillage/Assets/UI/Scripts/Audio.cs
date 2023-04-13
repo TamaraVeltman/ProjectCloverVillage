@@ -16,7 +16,7 @@ public class Audio : MonoBehaviour
 
     public void SetEnvironmentVolume(float newVolume)
     {
-        masterMixer.SetFloat("EnvironmentVolume", newVolume);
+        masterMixer.SetFloat("environmentVolume", newVolume);
     }
 
     public void SetMasterVolume(float newVolume)
